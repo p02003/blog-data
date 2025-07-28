@@ -1,6 +1,7 @@
 # Blog Data Repo
 
-This repo hosts my blog post data as a JSON file for my WebDev Final Project.
+This repository hosts the JSON data for my dev blog.
 
-🔗 View the JSON file here:  
-https://p02003.github.io/blog-data/blogdata.json
+You can access the JSON data here:
+
+[https://p02003.github.io/blog-data/data.json](https://p02003.github.io/blog-data/data.json)
