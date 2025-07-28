@@ -1,31 +1,16 @@
-{
-  "devBlogEntries": [
-    {
-      "id": 1,
-      "title": "JS Fetch API ",
-      "author": "Preya",
-      "publishDate": "2025-07-25",
-      "category": "JS",
-      "tags": ["JS", "API", "fetch", "promise", "async", "data object"],
-      "content": "The Fetch API is a modern JavaScript interface for making HTTP requests. It provides a more powerful and flexible way to interact with servers compared to the older XMLHttpRequest.\n\nFetch returns a Promise, making it perfect for async/await syntax. Here's a basic example:\n\nfetch('https://api.example.com/data')\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error('Error:', error));\n\nThe Fetch API supports various HTTP methods, headers, and request configurations, making it an essential tool for modern web development."
-    },
-    {
-      "id": 2,
-      "title": "expected fetch data structure",
-      "author": "Barry",
-      "publishDate": "2025-09-03",
-      "category": "JS",
-      "tags": ["javascript", "fetch", "JSON"],
-      "content": "The code expects the JSON to be either:\n1. A direct array: [{post1}, {post2}, ...] \n2. An object with a posts property: {posts: [{post1}, {post2}, ...]}."
-    },
-    {
-      "id": 3,
-      "title": "Getting data from a different server, CORS",
-      "author": "Barry",
-      "publishDate": "2025-06-15",
-      "category": "Accessibility",
-      "tags": ["accessibility", "a11y", "web-standards", "inclusive-design", "wcag"],
-      "content": "Accessibility in web development is crucial for creating inclusive digital experiences. When we build accessible applications, we're not just helping users with disabilities - we're improving usability for everyone.\n\nSemantic HTML is Your Foundation\nUsing proper HTML elements provides built-in accessibility features. Instead of <div onclick='...'>, use <button>. Screen readers understand semantic elements and can navigate them effectively.\n\nColor and Contrast Matter\nEnsure sufficient color contrast (4.5:1 for normal text, 3:1 for large text). Never rely solely on color to convey information - use icons, text, or patterns as additional indicators.\n\nKeyboard Navigation\nEvery interactive element should be reachable and usable via keyboard. Test your application using only the Tab, Enter, and Arrow keys.\n\nARIA Labels and Descriptions\nUse ARIA attributes to provide context where HTML semantics fall short, but remember: the first rule of ARIA is don't use ARIA if you can avoid it.\n\nAccessibility testing should be part of your development workflow, not an afterthought."
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "My First Blog Post",
+    "date": "2025-07-26",
+    "content": "This is my first blog post content. I’m learning how to fetch JSON!",
+    "tags": ["intro", "learning"]
+  },
+  {
+    "id": 2,
+    "title": "Why I Like Web Development",
+    "date": "2025-07-27",
+    "content": "Web development is creative and logical. I love HTML, CSS, and JavaScript!",
+    "tags": ["webdev", "javascript"]
+  }
+]
